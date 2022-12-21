@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    text-align: center;
+    width: 24rem;
+    height: 13.5rem;
+}
+*::-webkit-scrollbar {
+    display: none;
+}
+/* 约束屏幕尺寸 */
+/* @media screen and (max-width: 1024px) {
+    html {
+        font-size: 42px !important;
+    }
+}
+@media screen and (min-width: 1920px) {
+    html {
+        font-size: 80px !important;
+    }
+} */
