@@ -29,7 +29,7 @@ export default {
       let chart = this.mycharts;
       // 节流函数
       function throttle(func, wait, options) {
-        let time, context, args, result;
+        let time, context, args;
         let previous = 0;
         if (!options) options = {};
         let later = function () {

@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <h1>大屏数据可视化展示</h1>
+    <h1>短信通道大数据驾驶舱</h1>
     <div class="showtime">时间</div>
   </div>
 </template>

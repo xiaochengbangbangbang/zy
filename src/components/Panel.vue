@@ -18,6 +18,15 @@ export default {
     // console.log(this.$refs[this.mychart].setOption);
     this.$refs[this.mychart].setOption(this.option);
   },
+    // watch: {
+    //     option: {
+    //         handler (option) {
+    //             // 设置true清空echart缓存
+    //             this.$refs[this.mychart].setOption(option, true)
+    //         },
+    //         deep: true
+    //     }
+    // },
 };
 </script>
 
@@ -25,7 +34,7 @@ export default {
 /* 以下是存储echarts图表的容器样式 */
 .coverpanel {
   position: relative;
-  height: 3.875rem;
+  height: 5rem;
   background-color: rgba(255, 255, 255, 0.04);
   background: url(../../public/images/line\(1\).png) no-repeat;
   /* background-position: top center; */
